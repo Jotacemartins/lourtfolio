@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+}
+
+.nome-artista {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    color: #F39C12; /* Cor ao passar o mouse */
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+.section-intro {
+    background-color: #ECF0F1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section-clientes {
+    background-color: #3498DB;
+    color: white;
+    padding: 50px 20px;
+}
+
+.section-servicos {
+    background-color: #1ABC9C;
+    color: white;
+    padding: 50px 20px;
+}
+
+.section-projetos {
+    background-color: #F39C12;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.project-placeholder {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.project-placeholder img {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    border-radius: 10px;
+}
+
+.section-contato {
+    background-color: #E74C3C;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2C3E50;
+    color: white;
+}
